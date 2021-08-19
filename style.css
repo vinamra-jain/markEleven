@@ -55,3 +55,22 @@ input, textarea{
 button:hover{
     background-color: #90e0ef;
 }
+
+hr{
+    max-width: 550px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-light);
+    padding: 0.5rem 0.7rem;
+}
+
+.social-link{
+    margin: 0rem 0.5rem;
+}
+
+a:hover{
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+}

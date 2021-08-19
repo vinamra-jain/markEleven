@@ -19,9 +19,9 @@ checkBtn.addEventListener("click", () => {
   if (dob.value && luckyNumber.value) {
     const sum = calculateSum(dob.value);
     if (sum % luckyNumber.value === 0) {
-      output = "Your Birthday is Lucky";
+      output = "Your Birthday is Lucky✨";
     } else {
-      output = "Your Birthday is Not Lucky, so sad. Better Luck Next Life!";
+      output = "Your Birthday is Not Lucky🤒. Better Luck Next Life!";
     }
   } else {
     output = "Enter values in both the fields";
