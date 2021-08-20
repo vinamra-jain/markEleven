@@ -60,6 +60,10 @@ hr{
     max-width: 550px;
 }
 
+footer p{
+    letter-spacing: 0.2vw;
+}
+
 a{
     text-decoration: none;
     color: var(--primary-light);
@@ -73,4 +77,5 @@ a{
 a:hover{
     background-color: var(--primary-light);
     color: var(--primary-dark);
+    border-radius: 0.5rem;
 }
