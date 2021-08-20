@@ -24,9 +24,12 @@ label{
     margin-bottom: 1vw;
 }
 
+input{
+    width: 100%;
+}
+
 button{
     width: 30%;
-    margin: auto;
     background-color: var(--primary-light);
     color: var(--primary-dark);
     font-weight: bold;
@@ -34,6 +37,7 @@ button{
 }
 
 input, button{
+    margin: auto;
     margin-bottom: 2vw;
     padding: 0.5rem;
     border-radius: 0.5rem;
