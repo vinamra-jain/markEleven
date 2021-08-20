@@ -25,11 +25,12 @@ label{
 }
 
 input{
-    width: 100%;
+    width: 80%;
 }
 
 button{
     width: 30%;
+    max-width: 80px;
     background-color: var(--primary-light);
     color: var(--primary-dark);
     font-weight: bold;
@@ -48,7 +49,9 @@ textarea{
     resize: none;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    width: 80%;
     font-family: 'Acme', sans-serif;
+    margin: auto;
 }
 
 input, textarea{
