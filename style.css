@@ -72,12 +72,12 @@ footer p{
 }
 
 a{
-    text-decoration: none;
     color: var(--primary-light);
     padding: 0.5rem 0.7rem;
 }
 
 .social-link{
+    text-decoration: none;
     margin: 0rem 0.5rem;
 }
 
